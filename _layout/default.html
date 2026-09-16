@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- This makes the site render properly on phones, not just desktop -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: "Shreya Shah" }}</title>
+</head>
+<body>
+  <nav>
+    <a href="{{ '/' | relative_url }}">Home</a>
+    <a href="{{ '/cv' | relative_url }}">CV</a>
+    <a href="{{ '/projects' | relative_url }}">Projects</a>
+    <a href="{{ '/thoughts' | relative_url }}">Thoughts</a>
+  </nav>
+
+  <main>
+    {{ content }}
+  </main>
+
+</body>
+</html>
