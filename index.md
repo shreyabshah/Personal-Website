@@ -64,16 +64,7 @@ title: Home
   }
 }
 
-  .curtain-text {
-    display: inline-block;
-    color: #f5e6c8;
-    font-family: 'Dancing Script', cursive;
-    font-weight: 700;
-    font-size: 3rem;
-    white-space: nowrap;
-    clip-path: inset(0 100% 0 0);
-    animation: reveal-handwriting 2s ease-out 0.3s forwards;
-  }
+  
   @keyframes reveal-handwriting {
     to { clip-path: inset(0 0% 0 0); }
   }
