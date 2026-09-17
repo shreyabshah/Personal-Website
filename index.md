@@ -15,7 +15,7 @@ title: Home
   .hero {
     position: relative;
     height: 100vh;
-    background-image: url('{{ "/curtains-home.jpg" | relative_url }}');
+    background-image: url('{{ "/curtains-homepage.jpg" | relative_url }}');
     background-size: cover;
     background-position: center;
     display: flex;
