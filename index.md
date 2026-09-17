@@ -49,23 +49,29 @@ title: Home
   @keyframes slide-right { to { transform: translateX(100%);  } }
 
   .curtain-text {
-    display: inline-block;
-    color: #f5e6c8;
-    font-family: 'Dancing Script', cursive;
-    font-weight: 700;
-    font-size: 3rem;
-    white-space: nowrap;
-    clip-path: inset(0 100% 0 0);
-    animation: reveal-handwriting 2s ease-out 0.3s forwards;
-    @media (max-width: 600px) {
-      .curtain-text {
-        font-size: 1.6rem;      /* smaller so the full phrase fits on one line */
-        white-space: normal;    /* allow wrapping to a second line if it still doesn't fit */
-        text-align: center;
-        padding: 0 1rem;        /* small breathing room from screen edges */
-      }
+  display: inline-block;
+  color: #f5e6c8;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+  font-size: 3rem;
+  white-space: nowrap;
+  clip-path: inset(0 100% 0 0);
+  animation: reveal-handwriting 2s ease-out 0.3s forwards;
+  }
+  
+  @keyframes reveal-handwriting {
+    to { clip-path: inset(0 0% 0 0); }
+  }
+  
+  @media (max-width: 600px) {
+    .curtain-text {
+      font-size: 1.6rem;
+      white-space: normal;
+      text-align: center;
+      padding: 0 1rem;
     }
   }
+  
   @keyframes reveal-handwriting {
     to { clip-path: inset(0 0% 0 0); }
   }
