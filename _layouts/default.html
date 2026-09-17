@@ -41,6 +41,18 @@
     background-color: #b30000;
     color: #000000;
   }
+  @media (max-width: 600px) {
+    nav {
+      flex-wrap: wrap;      /* let boxes drop to a second row instead of overflowing */
+      gap: 0.5rem;
+    }
+  
+    nav a {
+      padding: 0.4rem 0.8rem;  /* smaller boxes need less padding to fit */
+      font-size: 0.9rem;
+    }
+  }
+    
   </style>
 </head>
 <body>
