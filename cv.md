@@ -3,11 +3,10 @@ layout: default
 title: CV
 ---
 <div class="spacer"></div>
+
 <div class="cv-download-wrap">
   <a href="{{ '/ShreyaShahCV.pdf' | relative_url }}" download class="cv-download">Download my CV (PDF)</a>
 </div>
-
-
 
 <section class="cv-section">
   <h2>Education</h2>
