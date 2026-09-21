@@ -56,7 +56,7 @@ title: CV
   </div>
 
   <div class="cv-entry">
-    <div class="cv-logo-box"><img src="{{ '/logos/OccuityLogo.png' | relative_url }}" alt="Occuity" class="cv-logo"></div>
+    <div class="cv-logo-box"><img src="{{ '/logos/occuityLogo.png' | relative_url }}" alt="Occuity" class="cv-logo"></div>
     <div>
       <h3>Occuity — Product &amp; Research Assistant</h3>
       <p class="cv-dates">Aug 2023</p>
