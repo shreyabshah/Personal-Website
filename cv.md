@@ -4,10 +4,14 @@ title: CV
 ---
 
 .spacer {
-  height: 10rem;
+  height: 20rem;
 }
 
-<a href="{{ '/ShreyaShahCV.pdf' | relative_url }}" download class="cv-download">Download my CV (PDF)</a>
+
+<div class="cv-download">
+  <a href="{{ '/ShreyaShahCV.pdf' | relative_url }}" download class="cv-download">Download my CV (PDF)</a>
+</div>
+
 
 <section class="cv-section">
   <h2>Education</h2>
@@ -129,6 +133,7 @@ title: CV
     color: #ffffff;
     text-decoration: none;
     transition: background-color 0.2s ease, color 0.2s ease;
+    text-align: center;
   }
   .cv-download:hover {
     background-color: #b30000;
