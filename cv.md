@@ -80,7 +80,7 @@ title: CV
   </div>
 
   <div class="cv-entry">
-    <div class="cv-logo-box"><img src="{{ '/logos/NHSLogo.jpeg' | relative_url }}" alt="NHS" class="cv-logo"></div>
+    <div class="cv-logo-box"><img src="{{ '/logos/NHSLogo.webp' | relative_url }}" alt="NHS" class="cv-logo"></div>
     <div>
       <h3>Attenborough Surgery (NHS) — Clinic Administration Assistant</h3>
       <p class="cv-dates">2020 – 2024</p>
