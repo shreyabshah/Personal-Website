@@ -4,11 +4,11 @@ title: CV
 ---
 
 .spacer {
-  height: 20rem;
+  height: 50rem;
 }
 
 
-<div class="cv-download">
+<div class="cv-download-wrap">
   <a href="{{ '/ShreyaShahCV.pdf' | relative_url }}" download class="cv-download">Download my CV (PDF)</a>
 </div>
 
@@ -133,11 +133,14 @@ title: CV
     color: #ffffff;
     text-decoration: none;
     transition: background-color 0.2s ease, color 0.2s ease;
-    text-align: center;
   }
   .cv-download:hover {
     background-color: #b30000;
     color: #000000;
+  }
+
+  .cv-download-wrap {
+    text-align: center;
   }
 
   .cv-section {
