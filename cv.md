@@ -125,7 +125,7 @@ title: CV
   }
 
   .spacer {
-    height: 15rem;
+    height: 10rem;
   }
   .cv-download {
     display: inline-block;
