@@ -2,22 +2,11 @@
 layout: default
 title: CV
 ---
-
+<div class="spacer"></div>
 <div class="cv-download-wrap">
   <a href="{{ '/ShreyaShahCV.pdf' | relative_url }}" download class="cv-download">Download my CV (PDF)</a>
 </div>
 
-<div class="spacer"></div>
-
-<style>
-  .cv-download-wrap {
-    text-align: center;
-  }
-
-  .spacer {
-    height: 15rem;
-  }
-</style>
 
 
 <section class="cv-section">
@@ -132,6 +121,13 @@ title: CV
 </section>
 
 <style>
+  .cv-download-wrap {
+    text-align: center;
+  }
+
+  .spacer {
+    height: 15rem;
+  }
   .cv-download {
     display: inline-block;
     margin-bottom: 2rem;
