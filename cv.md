@@ -3,14 +3,21 @@ layout: default
 title: CV
 ---
 
-.spacer {
-  height: 50rem;
-}
-
-
 <div class="cv-download-wrap">
   <a href="{{ '/ShreyaShahCV.pdf' | relative_url }}" download class="cv-download">Download my CV (PDF)</a>
 </div>
+
+<div class="spacer"></div>
+
+<style>
+  .cv-download-wrap {
+    text-align: center;
+  }
+
+  .spacer {
+    height: 15rem;
+  }
+</style>
 
 
 <section class="cv-section">
@@ -137,10 +144,6 @@ title: CV
   .cv-download:hover {
     background-color: #b30000;
     color: #000000;
-  }
-
-  .cv-download-wrap {
-    text-align: center;
   }
 
   .cv-section {
