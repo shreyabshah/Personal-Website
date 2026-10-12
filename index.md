@@ -79,12 +79,12 @@ title: Home
 
 <section class="about-section">
   <div class="about-grid">
-    <img src="{{ '/images/about-portrait.jpg' | relative_url }}" alt="Shreya" class="about-photo">
+    <img src="{{ '/photos/about-portrait.jpg' | relative_url }}" alt="Shreya" class="about-photo">
     <div class="about-text">
       <h2>Hi, I'm Shreya</h2>
       <p>I'm Shreya, a Bioengineering student at Imperial College London. I like figuring out how something works and then building a better version of it, lately that's meant Arduino control systems, custom PCB, and more time staring at a python shell than I expected to at this point in my degree.</p>
       <p>
-        <img src="{{ '/images/about-cheer.jpg' | relative_url }}" alt="Cheerleading stunt" class="about-inline-photo">
+        <img src="{{ '/photos/about-cheer.jpg' | relative_url }}" alt="Cheerleading stunt" class="about-inline-photo">
         Outside of that, I am a competitive cheerleader, coach, and tutor, all of which have taught me immensely about trust and communication. 
       </p>
     </div>
