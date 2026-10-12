@@ -82,10 +82,10 @@ title: Home
     <img src="{{ '/images/about-portrait.jpg' | relative_url }}" alt="Shreya" class="about-photo">
     <div class="about-text">
       <h2>Hi, I'm Shreya</h2>
-      <p>I've always been the person who wants to take things apart to see how they actually work, these days that means a soldering iron and CAD as often as a textbook. I'm a Bioengineering student at Imperial College London, and what pulls me in isn't the subject itself so much as the puzzle underneath it, the kind of problem that doesn't have an obvious fix yet.</p>
+      <p>I'm Shreya, a Bioengineering student at Imperial College London. I like figuring out how something works and then building a better version of it, lately that's meant Arduino control systems, custom PCB, and more time staring at a python shell than I expected to at this point in my degree.</p>
       <p>
         <img src="{{ '/images/about-cheer.jpg' | relative_url }}" alt="Cheerleading stunt" class="about-inline-photo">
-        Outside of that, I stunt and base for my university's competitive cheer squad, which has taught me more about trust and timing than most lectures have.
+        Outside of that, I am a competitive cheerleader, coach, and tutor, all of which have taught me immensely about trust and communication. 
       </p>
     </div>
   </div>
@@ -97,10 +97,6 @@ title: Home
     margin: 4rem auto;
     padding: 0 1.5rem;
   }
-
-  /* Two columns on wide screens: fixed-width photo, flexible text.
-     "grid-template-columns: 280px 1fr" means the first column is
-     exactly 280px, the second takes up whatever space is left. */
   .about-grid {
     display: grid;
     grid-template-columns: 280px 1fr;
